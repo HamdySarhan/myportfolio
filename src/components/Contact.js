@@ -19,19 +19,25 @@ export const Contact = (props) => {
         </div>
 
         <section className='contact-icons'>
-          <a>
+          <a
+            href='https://www.linkedin.com/in/hamdy-sarhan-5a750a1a1/'
+            target='_blank'
+          >
             <img src={linked}></img>
           </a>
-          <a>
+          <a href='https://github.com/HamdySarhan' target='_blank'>
             <img src={github}></img>
           </a>
-          <a>
+          <a href='https://www.facebook.com/hamdy.elking.92/' target='_blank'>
             <img src={facebook}></img>
           </a>
-          <a>
+          <a
+            href='https://wa.me/+491772833605?text=Hello%20there!'
+            target='_blank'
+          >
             <img src={whats}></img>
           </a>
-          <a>
+          <a href='https://www.instagram.com/hamdy_abdallah/' target='_blank'>
             <img src={insta}></img>
           </a>
         </section>
