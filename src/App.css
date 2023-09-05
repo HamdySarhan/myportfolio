@@ -276,7 +276,7 @@ a:active {
  *****************/
 
 .nav-wrapper img {
-  height: 40px;
+  height: 35px;
 }
 
 #navbar {
@@ -622,13 +622,24 @@ a:active {
   min-height: 100vh;
   font-size: 1.4rem;
   position: relative;
-  background: #b6b6b6;
+  background: #d4d4d4;
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
 
   background-attachment: fixed;
 }
 
+.about-img-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
 #about .wrapper {
   padding: 15rem 10rem 12rem;
   height: 100%;
@@ -668,6 +679,7 @@ a:active {
   text-align: center;
   color: inherit;
   padding-bottom: 1.5rem;
+  margin-top: 30px;
 }
 
 #about p {
@@ -924,7 +936,7 @@ a:active {
   justify-content: center;
   gap: 15px;
   margin-top: 50px;
-  height: 50px;
+  height: 40px;
 }
 .contact-icons a {
   cursor: pointer;
@@ -932,7 +944,7 @@ a:active {
 }
 
 .contact-icons a img {
-  height: 50px;
+  height: 40px;
 }
 
 .contact-icons a:hover {

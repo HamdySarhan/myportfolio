@@ -5,6 +5,7 @@ import whats from '../assets/icons8-whatsapp-50.png';
 import insta from '../assets/icons8-instagram-50.png';
 import linked from '../assets/icons8-linkedin-50.png';
 import github from '../assets/icons8-github-50.png';
+import email from '../assets/icons8-email-50 (1).png';
 export const Contact = (props) => {
   return (
     <section id='contact'>
@@ -19,6 +20,9 @@ export const Contact = (props) => {
         </div>
 
         <section className='contact-icons'>
+          <a href='mailto:hamdyabdallah565@outlook.com' target='_blank'>
+            <img src={email}></img>
+          </a>
           <a
             href='https://www.linkedin.com/in/hamdy-sarhan-5a750a1a1/'
             target='_blank'

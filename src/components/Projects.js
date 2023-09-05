@@ -62,7 +62,7 @@ export const Projects = (props) => {
             repo='https://github.com/HamdySarhan/client-portfolio'
           >
             <small>
-              Built using Node, Express, MongoDB, JS + CSS + Bootstrap and Pug.
+              Built using React, MongoDB, JS + CSS + Bootstrap and Pug.
             </small>
             <p>A full-stack portfolio website for a legal consulting office.</p>
           </Project>

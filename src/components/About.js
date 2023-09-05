@@ -1,5 +1,6 @@
 import React from 'react';
 import { SocialLinks } from './SocialLinks';
+import mypic from '../assets/mypic.jpg';
 
 export const About = (props) => {
   return (
@@ -11,6 +12,10 @@ export const About = (props) => {
             <p className='separator' />
           </div>
           <div className='desc full'>
+            <div className='about-img-wrapper'>
+              <img className='about-img' src={mypic}></img>
+            </div>
+
             <h4 className='subtitle'>My name is Hamdy.</h4>
             <p>
               I am a web developer and UX designer based in Berlin, Germany.
