@@ -58,7 +58,7 @@ export const Projects = (props) => {
             title='Client portfolio'
             img={client}
             tech='js node css'
-            link='https://64f3b3fb3dd92a397bfcfa6d--sensational-speculoos-da41db.netlify.app/'
+            link='https://abdallahsarhan-law.com/'
             repo='https://github.com/HamdySarhan/client-portfolio'
           >
             <small>
